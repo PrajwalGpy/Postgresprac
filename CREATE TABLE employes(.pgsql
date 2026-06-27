@@ -8,6 +8,8 @@ CREATE TABLE
         salary INT NOT NULL,
         hire_date date NOT NULL
     )
+
+    
 ALTER TABLE employes
 ALTER COLUMN hire_date
 TYPE DATE USING hire_date::DATE;
@@ -183,6 +185,8 @@ VALUES
         54000,
         '2024-06-01'
     );
+
+
 
 SELECT * FROM employes;
 
